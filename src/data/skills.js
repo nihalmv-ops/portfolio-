@@ -18,57 +18,57 @@ import {
 export const skills = [
   {
     id: 1,
-    icon: <FaHtml5 />,
-    name: "HTML5"
-  }
+    name: "HTML5",
+    icon: FaHtml5,
+  },
   {
     id: 2,
-    icon: <FaCss3Alt />,
     name: "CSS3",
+    icon: FaCss3Alt,
   },
   {
     id: 3,
-    icon: <FaJs />,
     name: "JavaScript",
+    icon: FaJs,
   },
   {
     id: 4,
-    icon: <FaReact />,
     name: "React",
+    icon: FaReact,
   },
   {
     id: 5,
-    icon: <FaNodeJs />,
     name: "Node.js",
+    icon: FaNodeJs,
   },
   {
     id: 6,
-    icon: <SiExpress />,
     name: "Express.js",
+    icon: SiExpress,
   },
   {
     id: 7,
-    icon: <SiMongodb />,
     name: "MongoDB",
+    icon: SiMongodb,
   },
   {
     id: 8,
-    icon: <FaGitAlt />,
     name: "Git",
+    icon: FaGitAlt,
   },
   {
     id: 9,
-    icon: <FaGithub />,
     name: "GitHub",
+    icon: FaGithub,
   },
   {
     id: 10,
-    icon: <FaBootstrap />,
     name: "Bootstrap",
+    icon: FaBootstrap,
   },
   {
     id: 11,
-    icon: <SiPostman />,
-    name: "Postman"
+    name: "Postman",
+    icon: SiPostman,
   },
 ];
