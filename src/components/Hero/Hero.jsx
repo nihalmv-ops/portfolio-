@@ -1,5 +1,6 @@
 import "./Hero.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Hero() {
   return (
@@ -39,14 +40,7 @@ function Hero() {
 
       </div>
 
-      <div className="hero-image">
-
-        <img
-          src="/nihal photo.jpg.jpeg"
-          alt="Nihal"
-        />
-
-      </div>
+    
 
            <div className="social-icons">
 
@@ -69,7 +63,7 @@ function Hero() {
 </div>
 
 <div className="scroll-down">
-  ↓ Scroll Down
+  <ion-icon name="chevron-down-circle-outline"></ion-icon>
 </div>
 
 
