@@ -1,6 +1,6 @@
 import "./Hero.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 
 function Hero() {
   return (
@@ -61,9 +61,8 @@ function Hero() {
   </a>
 
 </div>
-
 <div className="scroll-down">
-  <ion-icon name="chevron-down-circle-outline"></ion-icon>
+  <MdKeyboardDoubleArrowDown />
 </div>
 
 
